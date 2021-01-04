@@ -13,7 +13,15 @@ void main() {
   }
 
   // Javascript is everywhere
-  numbers.forEach((n) => {
-    print(n)
-  });
+  numbers.forEach((n) => {print(n)});
+  // Set
+  var halogens = {"chlorine", "flourine", "bromine", "iodine"};
+  halogens.forEach((element) => {print(element)});
+
+  var dict_or_map = {"username": "Parag", "password": 12345};
+  print(dict_or_map["username"]);
+
+  list = null;
+  list2 = ["new list", ...?list];
+  print(list2);
 }
